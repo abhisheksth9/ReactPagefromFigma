@@ -1,6 +1,4 @@
 import Header from "../components/Header";
-import FeatureCard from "../cards/FeatureCard";
-import { features } from "../data/data";
 import Card1 from "../cards/Frame 1/Card1";
 import Card2 from "../cards/Frame 1/Card2";
 import Mentor from "../cards/Frame 2/Mentor";
