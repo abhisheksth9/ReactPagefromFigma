@@ -44,13 +44,9 @@ const cards = [
         setActiveCard(0);
       }}
     >
-      {/*  CARD 1  */}
       <div
         className={`
-          absolute inset-0
-          rounded-[32px]
-          bg-[#5492a0]
-          p-8
+          absolute inset-0 rounded-[32px] bg-[#5492a0] p-8
           transition-all duration-500 ease-out
           ${
             hovered
@@ -86,7 +82,6 @@ const cards = [
         </div>
       </div>
 
-      {/*  SLIDER  */}
       <div
         className={`
           absolute inset-0
@@ -101,7 +96,7 @@ const cards = [
           }
         `}
       >
-        {/* Left Cut Circle */}
+
         <div
         className="
             absolute
@@ -117,79 +112,39 @@ const cards = [
         "
         />
 
-        {/* Right Cut Circle */}
         <div
         className="
-            absolute
-            w-[106px]
-            h-[106px]
-            bg-[#FAFAFA]
-            rounded-full
-            top-1/2
-            -right-[53px]
-            -translate-y-1/2
-            -translate-x-1/5
-            -z-10
+            absolute w-[106px] h-[106px] bg-[#FAFAFA] rounded-full top-1/2 -right-[53px] -translate-y-1/2 -translate-x-1/5 -z-10
         "
         />
-        {/* IMAGE */}
+
         <img
           src={cards[activeCard].image}
-          className={`
-            absolute
-            w-[572px]
-            opacity-100
+          className={` absolute w-[572px] opacity-100
             ${cards[activeCard].imageClass}
           `}
         />
 
-        {/* TITLE */}
         <div className={cards[activeCard].textClass}>
             <h2 className="text-[20px] font-bold text-white">
                 {cards[activeCard].title}
             </h2>
         </div>
         
-        {/* PREV BUTTON */}
         <button
           onClick={prevSlide}
           className="
-            absolute
-            left-0
-            top-1/2
-            z-30
-            w-[62px]
-            h-[62px]
-            -translate-x-1
-            -translate-y-1/2
-            rounded-full
-            bg-[#FAFAFA]
-            flex
-            items-center
-            justify-center
+            absolute left-0 top-1/2 z-30 w-[62px] h-[62px] -translate-x-1 -translate-y-1/2 rounded-full bg-[#FAFAFA] flex items-center justify-center
             shadow-[0px_6px_15px_-2px_#10182814_inset,0px_6px_15px_-2px_#10182814,0px_4px_4px_0px_#00000040]
           "
         >
           <img src={arrowleft} />
         </button>
 
-        {/* NEXT BUTTON */}
         <button
           onClick={nextSlide}
           className="
-            absolute
-            right-0
-            top-1/2
-            z-30
-            w-[62px]
-            h-[62px]
-            translate-x-1
-            -translate-y-1/2
-            rounded-full
-            bg-[#FAFAFA]
-            flex
-            items-center
-            justify-center
+            absolute right-0 top-1/2 z-30 w-[62px] h-[62px] translate-x-1 -translate-y-1/2 rounded-full bg-[#FAFAFA] flex items-center justify-center
             shadow-[0px_6px_15px_-2px_#10182814_inset,0px_6px_15px_-2px_#10182814,0px_4px_4px_0px_#00000040]
           "
         >

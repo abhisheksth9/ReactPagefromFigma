@@ -6,7 +6,7 @@ import Job from "../cards/Frame 2/Job";
 
 const MainSection = () => {
     return(
-        <section className=" w-[1440px]">
+        <section>
             <div className="max-w-[1213px] h-[862px] px-12">
                 <Header/>
                 <div className="grid grid-cols-2 gap-10 w-[1213px] h-[722px]">

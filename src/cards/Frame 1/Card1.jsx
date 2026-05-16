@@ -15,21 +15,15 @@ const Card1 = () => {
   return (
     <div className='relative rounded-[32px] h-[341px] w-[592px] top-[40px] left-[90px] bg-[#f45b5b] group p-8'>
             <div className='
-                absolute inset-0
-                rounded-[32px]
-                bg-[#f45b5b]
-                p-8
-                transition-all
-                duration-500
-                ease-out
+                absolute inset-0 rounded-[32px] bg-[#f45b5b] p-8 
+                transition-all duration-500 ease-out
                 group-hover:-translate-x-[120%]
                 group-hover:opacity-0
             '>
                 <img
                     src={thinking}
                     className="
-                    absolute w-[307.03px] top-[22px] left-[-48.92px]
-                    opacity-100 rotate-0 object-contain pointer-events-none
+                    absolute w-[307.03px] top-[22px] left-[-48.92px] opacity-100 rotate-0 object-contain pointer-events-none
                     animate-bounce
                     [filter:drop-shadow(0px_20px_40px_rgba(16,24,40,0.10))_drop-shadow(0px_20px_40px_rgba(16,24,40,0.05))]
                     "
@@ -57,91 +51,38 @@ const Card1 = () => {
             {/* Card 2*/}
             <div
             className="
-                absolute inset-0
-                rounded-[32px]
-                bg-[#f45b5b]
-
-                transition-all
-                duration-500
-                ease-out
-
+                absolute inset-0 rounded-[32px] bg-[#f45b5b]
+                transition-all duration-500 ease-out
                 opacity-0
-
                 group-hover:translate-x-0
                 group-hover:opacity-100
             "
             >
-                {/* Left Cut Circle */}
                 <div
                 className="
-                    absolute
-                    w-[106px]
-                    h-[106px]
-                    bg-[#FAFAFA]
-                    rounded-full
-                    top-1/2
-                    -left-[53px]
-                    -translate-y-1/2
-                    translate-x-1/5
+                    absolute w-[106px] h-[106px] bg-[#FAFAFA] rounded-full top-1/2 -left-[53px] -translate-y-1/2 translate-x-1/5
                 "
                 />
 
-                {/* Right Cut Circle */}
                 <div
-                className="
-                    absolute
-                    w-[106px]
-                    h-[106px]
-                    bg-[#FAFAFA]
-                    rounded-full
-                    top-1/2
-                    -right-[53px]
-                    -translate-y-1/2
-                    -translate-x-1/5
-                    z-10
+                className=" absolute w-[106px] h-[106px] bg-[#FAFAFA] rounded-full top-1/2 -right-[53px] -translate-y-1/2 -translate-x-1/5 z-10
                 "
                 />
                 <div>
                     <img
-                        src={wow1}
-                        className='
-                        absolute
-                        w-[88px] h-[88px]
-                        top-[193px] left-[385px]
-                        rotate-[146.52deg]
-                        object-contain
+                        src={wow1} className=' absolute w-[88px] h-[88px] top-[193px] left-[385px] rotate-[146.52deg] object-contain
                         '
                     />
                     <img
-                        src={wow2}
-                        className='
-                        absolute
-                        w-[88px] h-[88px]
-                        top-[24px]
-                        left-[67px]
-                        rotate-[11.91deg]
-                        object-contain
+                        src={wow2} className=' absolute w-[88px] h-[88px] top-[24px] left-[67px] rotate-[11.91deg] object-contain
                     '
                     />
                     <img
-                        src={image1}
-                        className='
-                        absolute
-                        overflow-visible
-                        w-[352px] h-[323px]
-                        top-[18px] left-[35px]
-                        opacity-100;
-                        border-bottom-left-radius-[23px];
+                        src={image1} className=' absolute overflow-visible w-[352px] h-[323px] top-[18px] left-[35px] opacity-100; border-bottom-left-radius-[23px];
                         '
                     />
                     <img
-                        src={image2}
-                        className='
-                        absolute
-                        w-[352px] h-[323px]
-                        top-[18px] left-[24px]
-                        opacity-100;
-                        border-bottom-left-radius-[23px];
+                        src={image2} className=' absolute w-[352px] h-[323px] top-[18px] left-[24px] opacity-100; border-bottom-left-radius-[23px];
                         '
                     />
                 </div>
@@ -152,22 +93,9 @@ const Card1 = () => {
                     </h2>
                 </div>
 
-                {/* Previous Button */}
                 <button
                     className="
-                    absolute
-                    left-0
-                    top-1/2
-                    z-30
-                    w-[62px]
-                    h-[62px]
-                    -translate-x-1
-                    -translate-y-1/2
-                    rounded-full
-                    bg-[#FAFAFA]
-                    flex
-                    items-center
-                    justify-center
+                    absolute left-0 top-1/2 z-30 w-[62px] h-[62px] -translate-x-1 -translate-y-1/2 rounded-full bg-[#FAFAFA] flex items-center justify-center
                     shadow-[0px_6px_15px_-2px_#10182814_inset,0px_6px_15px_-2px_#10182814,0px_4px_4px_0px_#00000040]
                     "
                 
@@ -177,22 +105,9 @@ const Card1 = () => {
                     />
                 </button>
 
-                {/* Next Button */}
                 <button
                     className="
-                    absolute
-                    right-0
-                    top-1/2
-                    z-30
-                    w-[62px]
-                    h-[62px]
-                    translate-x-1   
-                    -translate-y-1/2
-                    rounded-full
-                    bg-[#FAFAFA]
-                    flex
-                    items-center
-                    justify-center
+                    absolute right-0 top-1/2 z-30 w-[62px] h-[62px] translate-x-1    -translate-y-1/2 rounded-full bg-[#FAFAFA] flex items-center justify-center
                     shadow-[0px_6px_15px_-2px_#10182814_inset,0px_6px_15px_-2px_#10182814,0px_4px_4px_0px_#00000040]
                 "
                 >
@@ -201,7 +116,6 @@ const Card1 = () => {
                     />
                 </button>
             </div>
-        {/* </div> */}
     </div>
   )
 }

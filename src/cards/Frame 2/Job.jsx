@@ -12,12 +12,13 @@ const Job = () => {
             [filter:drop-shadow(0px_20px_40px_rgba(16,24,40,0.10))_drop-shadow(0px_20px_40px_rgba(16,24,40,0.05))]"
 
         />
-            <div className='w-[368px]'>
-                
-                <h2 className="text-white text-[32px] font-[700] h-[38] w-[270] leading-right">
-                    Achieve & Showcase
-                </h2>
-                <p className="mt-4 text-white text-[24px] font-[500]">
+            <div className='w-[324px] h-[225px] mr-auto'>
+                <div>
+                    <h2 className="text-white text-[32px] font-[700] font-bold">
+                        Achieve & Showcase
+                    </h2>
+                </div>
+                <p className="mt-4 text-white text-[24px] font-[500] w-[368px]">
                     Build your portfolio, get job-ready.
                 </p>
                 <div className='w-[337px] h-[115px]'>
