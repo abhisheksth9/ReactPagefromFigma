@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+body{
+  font-family: "Outfit", sans-serif;
+  background-color: #FAFAFA;
+  color: #333333;
+}
+
+subtitle{
+  font-family: "Nohemi", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: normal; 
+}
+
+title{
+  font-family: "Fustat", sans-serif;
+  font-weight: 500;
+  font-style: medium;
+  font-size: normal;
+  font-family: Fustat;
+  color: #333333;
+}
+
+@keyframes bounceY {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3%);
+  }
+}
+
+.animate-bounce{
+  animation: bounceY 2s ease-in-out infinite;
+}
